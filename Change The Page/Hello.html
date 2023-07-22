@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- html패이지내에 다른 페이지 이동 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        body {
+            background-color: bisque;
+        }
+        h4 {
+            color: blanchedalmond;
+            display: inline-block;
+        }
+        main {
+            margin-top: 40px;
+        }
+        #singInPage {
+            width: 300px;
+            height: 500px;
+            margin: auto;
+            padding: 30px;
+            background-color: brown;
+            border-radius: 30px;
+        }
+        #singInButton {
+            width: 100%;
+        }
+        #singUpButton {
+            background: none;
+            border: none;
+        }
+        #singUpButton:hover {
+            background-color: rgb(107, 18, 18);
+        }
+        .center {
+            margin: auto;
+        }
+        .center * {
+            margin: 10px 0;
+        }
+        .textColorBlack {
+            color: black;
+        }
+        .personalInfortionPage {
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1><a href="./index.html">LOGO</a></h1>
+        <ul>
+            <li><a href="./Hello.html">Hello</a></li>
+            <li><a href="./World.html">World!</a></li>
+            <li><a href="./Ehem.html">Ehemmmm...</a></li>
+            <li><a href="./Go.html">Go</a></li>
+            <li><a href="./Yhea.html">Yheeeaa!</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="singInPage">
+            <div class="center">
+                <span><h4>id</h4></span>
+                <input type="text" id="id" class="textColorBlack personalInfortionPage" placeholder="ID"><br>
+                <span><h4>password</h4></span>
+                <input type="password" id="password" class="textColorBlack personalInfortionPage" placeholder="PASSWORD">
+            </div>
+            <button id="singInButton" class="textColorBlack">Sing In</button>
+            <a id="singUpButton" href="./singUp.html">Did you have not the ID? Sing UP here!</a>
+        </div>
+    </main>
+</body>
+</html>

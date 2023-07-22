@@ -1,0 +1,22 @@
+* {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+}
+nav {
+    height: 40px;
+    width: 100vw;
+    top: 0;
+    background-color: green;
+    display: flex;
+    position: fixed;
+}
+ul {
+    position: absolute;
+    display: flex;
+    right: 0;
+}
+li {
+    list-style: none;
+    margin: 0 50px;
+}
